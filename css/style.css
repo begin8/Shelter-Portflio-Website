@@ -5,15 +5,6 @@
 */
 
 /* Reset */
-* { margin: 0; padding: 0; box-sizing: border-box; }
-
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #fffdfb;
-  color: #333;
-  line-height: 1.6;
-}
-
 /* Header */
 header {
   background: #f28a2e;
@@ -24,79 +15,28 @@ header {
 header h1 { font-size: 2.2rem; margin-bottom: 10px; }
 header p { font-size: 1.1rem; }
 
-/* Sections */
-section {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-h2 {
-  font-size: 1.8rem;
-  margin-bottom: 20px;
-  text-align: center;
-  color: #f28a2e;
+/* Header Logo */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
-/* About Section */
-.about p { margin-bottom: 20px; text-align: center; font-size: 1rem; }
-.about img {
-  width: 100%;
-  border-radius: 16px;
-  margin: 15px 0;
-  object-fit: cover;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+.logo {
+  width: 80px;
+  height: auto;
+  border-radius: 10px;
 }
 
-/* Donation Section */
-.donation-box {
-  border: 2px solid #f28a2e;
-  border-radius: 16px;
-  padding: 30px 20px;
-  text-align: center;
-  background: #fff7f0;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.05);
-  margin-bottom: 30px;
+.header-text h1 {
+  font-size: 2.2rem;
+  margin: 0;
 }
-.donation-box h3 { color: #f28a2e; margin-bottom: 10px; }
-.donation-box a { color: #f28a2e; text-decoration: none; font-weight: bold; }
-.donation-box a:hover { text-decoration: underline; }
-.donation-box img { max-width: 180px; margin-top: 15px; }
 
-ul { margin-top: 20px; list-style-type: disc; padding-left: 20px; }
-ul li { margin-bottom: 10px; }
-
-/* Contact Section */
-.contact p { text-align: center; margin-bottom: 10px; }
-.social-links { text-align: center; margin-top: 15px; }
-.social-links a {
-  display: inline-block;
-  margin: 0 10px;
-  color: #f28a2e;
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-.social-links a:hover { color: #d96b00; }
-
-/* Footer */
-footer {
-  background: #333;
+.header-text p {
+  margin: 5px 0 0 0;
+  font-size: 1.1rem;
   color: white;
-  text-align: center;
-  padding: 25px 20px;
-  font-size: 0.9rem;
 }
-
-/* Button */
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  border-radius: 12px;
-  background: #f28a2e;
-  color: white;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.3s ease;
-  margin-top: 10px;
-}
-.btn:hover { background: #d96b00; }
