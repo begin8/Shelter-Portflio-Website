@@ -98,12 +98,13 @@ ul li { margin-bottom: 10px; }
   display: inline-block;
   margin: 0 10px;
   color: #f28a2e;
-  font-weight: 600;
-  text-decoration: none;
-  transition: color 0.2s ease;
+  font-size: 1.8rem;
+  transition: color 0.2s ease, transform 0.3s ease;
 }
-.social-links a:hover { color: #d96b00; }
-
+.social-links a:hover {
+  color: #d96b00;
+  transform: scale(1.2);
+  
 /* Footer */
 footer {
   background: #333;
@@ -126,4 +127,5 @@ footer {
   margin-top: 10px;
 }
 .btn:hover { background: #d96b00; }
+
 
