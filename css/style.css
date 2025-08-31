@@ -50,7 +50,6 @@ header p { font-size: 1.1rem; }
   color: white;
 }
 
-
 /* Sections */
 section {
   max-width: 900px;
@@ -127,3 +126,4 @@ footer {
   margin-top: 10px;
 }
 .btn:hover { background: #d96b00; }
+
